@@ -1,0 +1,33 @@
+Project Title:
+Automatic Musical Key Detection Tool
+
+Objective:
+To develop a Python application that analyzes an audio file and accurately identifies its musical key (e.g., C major, A minor), helping musicians, producers, and DJs better understand or organize their music.
+
+Scope & Features:
+Load .wav or .mp3 audio files.
+
+Extract pitch content using chroma features (e.g., Constant-Q Transform).
+
+Compare pitch distribution to standard major/minor key profiles.
+
+Output the most likely musical key.
+
+Optional: visualize chroma energy across the 12 semitones.
+
+Technical Details:
+Libraries: librosa, numpy, soundfile, matplotlib
+
+Core Algorithm: Match chroma vector (mean or weighted) to predefined key profiles using cosine similarity or correlation.
+
+Optional Enhancements:
+
+Detect modulations (key changes over time)
+
+Add a GUI using tkinter or PyQt
+
+Batch mode to analyze multiple files
+
+Expected Outcome:
+A working Python script or simple app that provides musicians and audio engineers with fast, reasonably accurate musical key analysis of audio files.
+
