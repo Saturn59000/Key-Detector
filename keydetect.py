@@ -7,7 +7,6 @@
 
 import librosa
 import numpy as np
-import matplotlib.pyplot as plt 
 
 # cosine similarity function cos(theta) = dot(a,b) / (mag(a) * mag(b))
 def cosine(a,b):

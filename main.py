@@ -1,6 +1,6 @@
 ############################
 #File: main.py
-#Function: GUI for automatic key detector
+#Function: GUI and main for automatic key detector
 #Author: Derek Wilson
 #Date: 2025-05-17
 ############################
