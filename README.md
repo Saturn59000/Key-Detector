@@ -1,4 +1,6 @@
-﻿# Key-Detector
+Author: Derek Wilson
+
+Date: 2025-05-17
 
 Background:
 
