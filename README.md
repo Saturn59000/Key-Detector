@@ -2,7 +2,7 @@
 
 Background:
 
-This is a musical key and audio detector for BCIT's ELEX 4653 term project. It uses the librosa library for audio processing, specifically in extracting chroma data from the audio sample. This can be used to generate a Chromogram, which is similar to a spectogram, but is based on pitch information instead of frequency. The chromogram is represented as a 12 dimensional vector, which can be compared to known key profiles, such as those experimentally determined by Carol L. Krumhansl and Mark A. Schmuckler [3]. Using linear algebra to compute the similarity between the vectors determines the most likely key of the sample.
+This is a musical key and audio detector for BCIT's "ELEX 4653 - Introduction to Python" term project. It uses the librosa library for audio processing, specifically in extracting chroma data from the audio sample. This can be used to generate a Chromogram, which is similar to a spectogram, but is based on pitch information instead of frequency. The chromogram is represented as a 12 dimensional vector, which can be compared to known key profiles, such as those experimentally determined by Carol L. Krumhansl and Mark A. Schmuckler [3]. Using linear algebra to compute the similarity between the vectors determines the most likely key of the sample.
 
 References:
 
