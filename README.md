@@ -9,7 +9,7 @@ This is a musical key and audio detector for BCIT's "ELEX 4653 - Introduction to
 
 ## **Use:**
 
-Input the desired audio file (.mp3 and .wav supported). The detector will output the most likely key, the song's bpm, and the top similar keys. The number associated with the key is the cosine value (used to compare two vectors). The closer the value is to 1, the better the chroma vector of the song matches that key's profile vector.4
+Input the desired audio file (.mp3 and .wav supported). The detector will output the most likely key, the song's bpm, and the top similar keys. The number associated with the key is the cosine value (used to compare two vectors). The closer the value is to 1, the better the chroma vector of the song matches that key's profile vector.[4]
 
 
 ## **References:**
