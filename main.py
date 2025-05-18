@@ -44,8 +44,8 @@ def browse_and_analyze():
                 result_textbox.delete("0.0", "end")
                 result_textbox.insert("end", f"Detected Key: {key}\n")
                 result_textbox.insert("end", f"Estimated Tempo: {bpm} BPM\n\n")
-                result_textbox.insert("end", "Top Similar Keys:\n")
-                for k, val in sorted_keys[:3]:
+                result_textbox.insert("end", "Top Keys:\n")
+                for k, val in sorted_keys[0:4]:
                     result_textbox.insert("end", f"{k:<10}: {val:.3f}\n")
             except Exception as e:
                 result_textbox.delete("0.0", "end")
