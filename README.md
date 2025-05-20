@@ -1,10 +1,18 @@
-﻿# Key-Detector
+# **Automatic Key and BPM Detector**
+**Author: Derek Wilson**
 
-Background:
+**Date: 2025-05-17**
+
+## **Background:**
 
 This is a musical key and audio detector for BCIT's "ELEX 4653 - Introduction to Python" term project. It uses the librosa library for audio processing, specifically in extracting chroma data from the audio sample. This can be used to generate a Chromogram, which is similar to a spectogram, but is based on pitch information instead of frequency. The chromogram is represented as a 12 dimensional vector, which can be compared to known key profiles, such as those experimentally determined by Carol L. Krumhansl and Mark A. Schmuckler [3]. Using linear algebra to compute the similarity between the vectors determines the most likely key of the sample.
 
-References:
+## **Use:**
+
+Input the desired audio file (.mp3 and .wav supported). The detector will output the most likely key, the song's bpm, and the top similar keys. The number associated with the key is the cosine value (used to compare two vectors). The closer the value is to 1, the better the chroma vector of the song matches that key's profile vector [4].
+
+
+## **References:**
 
 [1] 	S. B. F. Z. Meinard Müller, "Audio-Processing-Uni-Projects," April 2020. [Online]. Available: https://github.com/StefanRinger/Audio-Processing-Uni-Projects/blob/main/1%20STFT/stft_and_chroma_features.ipynb.
 
